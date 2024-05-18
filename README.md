@@ -5,46 +5,45 @@
 [![Paper](https://img.shields.io/badge/Paper-IEEE%20Xplore-blue.svg?style=for-the-badge)](https://ieeexplore.ieee.org/abstract/document/10097005)
 
 
+## About the Challenge task
 
-************ WIP *****************************
+Track 1 of this challenge released a corpus of longitudinal data from 46 unique users measured for a period of 2.5 months. The dataset consists of continuous measurements from a smartwatch providing an accelerometer, gyroscope, heart rate (HR), heart rate variability (HRV), and sleep status data. There is also data for the user’s physical activities and the calories
+burned. We refer to the former set of features as vital signs and the latter as physical signs in this paper. The task is to identify the wearer of the watch using these raw signals. The
+baseline performance on the validation set for this task was 62%. In this paper, we present a novel way of modeling behavior patterns of individuals through multi-stage fusion, and an
+imputation-free technique to handle missing features. This approach provides an accuracy of 91.36% on the test set and secured third position (Team name : AI_Bezzie) in the challenge. 
 
 
-# IEEE ICASSP Signal Processing Grand Challenge Winner: Machine Learning Codebase
 
-Congratulations on winning the IEEE ICASSP Signal Processing Grand Challenge! This repository contains the machine learning codebase associated with your winning submission. Below, you'll find information on how to access, utilize, and contribute to the code.
+## Codebase
 
-## About the Challenge
+### Dependencies
+The required packages are listed in requirements.txt and can be installed as :
+```
+pip install -r requirements.txt
+```
 
-The IEEE ICASSP Signal Processing Grand Challenge is an esteemed competition aimed at pushing the boundaries of signal processing research. Your winning submission has demonstrated outstanding innovation and performance in the field.
+Download the preprocessed dataset and the saved model checkpoint from [here](https://drive.google.com/drive/folders/1CvT2-J_DdDtUvYWQImMMQGcmkmBl3FGS?usp=sharing).
 
-For more details about the challenge, visit the [IEEE ICASSP Signal Processing Grand Challenges](https://2023.ieeeicassp.org/signal-processing-grand-challenges/) website.
 
-## Winning Paper
+### Training
 
-Your winning paper titled *[Title of Your Winning Paper](https://ieeexplore.ieee.org/abstract/document/10097005)* has been published on IEEE Xplore. It provides in-depth insights into your approach and methodology.
+Use the following command to train the model from scratch using the preprocessed data which are assumed to be in the folder saved_var/.
 
-## Repository Contents
+```
 
-This repository contains the following:
+python training_person_id.py
 
-- **[Code]:** The machine learning codebase associated with your winning submission.
-- **[Documentation]:** Detailed documentation explaining the code structure, usage, and any additional information needed to understand and run the code.
+```
 
-## Usage
+Note : We provide the final version of the best hyperparameters for reproduction.
 
-To utilize the machine learning codebase, follow these steps:
+In the folder data_prep/ additional scripts used for preparing the data to the format in saved_var/ is provided.
 
-1. Clone this repository to your local machine.
-2. Navigate to the directory containing the code.
-3. Follow the instructions provided in the documentation to set up and run the code.
 
-## Dependencies
+### Evaluation
 
-List any dependencies required to run the code, including libraries, frameworks, and versions.
+We provide a notebook (/home/payal/ICASSP-SPGC-Track-1-2023/evaluation_tutorial_notebook.ipynb) to verify our results on the labeled validation set using the checkpoint available [here](https://drive.google.com/file/d/1444wvkD6kjUjZuhWncTyKaDUcXXO8r0X/view?usp=drive_link).
 
-## Directory Structure
-
-Explain the structure of the repository, including key directories and their purposes.
 
 
 ## Citation

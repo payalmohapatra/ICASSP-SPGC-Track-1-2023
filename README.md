@@ -12,7 +12,7 @@ burned. We refer to the former set of features as vital signs and the latter as 
 baseline performance on the validation set for this task was 62%. In this paper, we present a novel way of modeling behavior patterns of individuals through multi-stage fusion, and an
 imputation-free technique to handle missing features. This approach provides an accuracy of 91.36% on the test set and secured third position (Team name : AI_Bezzie) in the challenge. 
 
-
+![MAFN](https://github.com/payalmohapatra/ICASSP-SPGC-Track-1-2023/blob/main/ICASSP_EPrevention_GC_camera_ready_wo_inference.png)
 
 ## Codebase
 
@@ -42,7 +42,7 @@ In the folder data_prep/ additional scripts used for preparing the data to the f
 
 ### Evaluation
 
-We provide a notebook (/home/payal/ICASSP-SPGC-Track-1-2023/evaluation_tutorial_notebook.ipynb) to verify our results on the labeled validation set using the checkpoint available [here](https://drive.google.com/file/d/1444wvkD6kjUjZuhWncTyKaDUcXXO8r0X/view?usp=drive_link).
+We provide a notebook (evaluation_tutorial_notebook.ipynb) to verify our results on the labeled validation set using the checkpoint available [here](https://drive.google.com/file/d/1444wvkD6kjUjZuhWncTyKaDUcXXO8r0X/view?usp=drive_link).
 
 
 

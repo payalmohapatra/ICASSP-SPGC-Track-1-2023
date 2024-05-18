@@ -1,4 +1,4 @@
-[![IEEE ICASSP Signal Processing Grand Challenge Top Performer(Rank 3)](https://img.shields.io/badge/IEEE%20ICASSP%20Signal%20Processing%20Grand%20Challenge%20Winner-2023-yellow.svg?style=for-the-badge)](https://2023.ieeeicassp.org/signal-processing-grand-challenges/)
+[![IEEE ICASSP Signal Processing Grand Challenge Top Performer(Rank 3)](https://img.shields.io/badge/IEEE%20ICASSP%20Signal%20Processing%20Grand%20Challenge%20Top%20Performer%20(Rank%203)%20-2023-yellow.svg?style=for-the-badge)](https://2023.ieeeicassp.org/signal-processing-grand-challenges/)
 
 # IEEE ICASSP Signal Processing Grand Challenge 2023 - e-Prevention: Person Identification and Relapse Detection from Continuous Recordings of Biosignals (Track 1 Implementation)
 
